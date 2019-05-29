@@ -1,0 +1,48 @@
+.pricing-item {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.icon {
+  display: block;
+  height: 160px;
+  width: 214px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.capacity {
+  color: #b4b4b4;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #8d8d8d;
+}
+
+.description {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
+  color: #b4b4b4;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.button {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  width: 200px;
+  height: 50px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 80px;
+  cursor: pointer;
+}

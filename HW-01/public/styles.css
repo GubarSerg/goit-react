@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dbdbdb;
+    padding: 100px 0px;
+}
+ 
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#root>*:not(:last-child){
+    margin-bottom: 100px;
+}

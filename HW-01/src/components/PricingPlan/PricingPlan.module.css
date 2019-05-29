@@ -1,0 +1,45 @@
+.pricing-plan {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  width: 450px;
+  padding: 0px 75px;
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.01);
+  background-color: #fff;
+  text-align: center;
+}
+
+.item h2 {
+  color: #c0c0c0;
+}
+
+.item:first-child h2 {
+  color: #dc7c4a;
+}
+
+.item:last-child h2 {
+  color: #dda431;
+}
+
+.item button {
+  background-color: #c0c0c0;
+}
+
+.item:first-child button {
+  background-color: #dc7c4a;
+}
+
+.item:last-child button {
+  background-color: #dda431;
+}
