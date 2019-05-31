@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import Profile from './Profile/Profile';
-import Stats from './Stats/Stats';
-import PricingPlan from './PricingPlan/PricingPlan';
-import TransactionHistory from './TransactionHistory/TransactionHistory';
-import plansData from './PricingPlan/pracing-plan.json';
-import transactions from './TransactionHistory/transactions.json';
+import Profile from '../Profile/Profile';
+import Stats from '../Stats/Stats';
+import PricingPlan from '../PricingPlan/PricingPlan';
+import TransactionHistory from '../TransactionHistory/TransactionHistory';
+import plansData from '../PricingPlan/pracing-plan.json';
+import transactions from '../TransactionHistory/transactions.json';
 
 const user = {
   name: 'Jacques Gluke',
